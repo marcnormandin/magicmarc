@@ -3,6 +3,12 @@ language: python
 python:
   - '2.7'
 
+before_install:
+  - pip install codecov
+
+after_success:
+  - codecov
+
 install:
   - pip install matplotlib
 
