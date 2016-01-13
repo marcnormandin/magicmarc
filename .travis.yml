@@ -14,4 +14,5 @@ install:
 
 script: 
   - python setup.py test
+  - codecov --token=feac69e4-4682-423a-9aba-8131fed441d3
 
