@@ -1,4 +1,5 @@
-# magicmarc
-Magic Marc Test Project
+# Magic Marc
 
-Testing
+[![Build Status](https://travis-ci.org/marcnormandin/magicmarc.svg)](https://travis-ci.org/marcnormandin)
+
+
