@@ -6,13 +6,13 @@ python:
 before_install:
   - pip install codecov
 
-after_success:
-  - codecov
-
 install:
+  - pip install coverage
   - pip install matplotlib
 
 script: 
   - python setup.py test
-  - codecov --token=feac69e4-4682-423a-9aba-8131fed441d3
+  - coverage run --source=magicmarc setup.py test
 
+after_success:
+  - codecov --token=feac69e4-4682-423a-9aba-8131fed441d3
