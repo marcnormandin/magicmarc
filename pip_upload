@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo 'Uploading to testpypi.python.org'
+python setup.py sdist upload -r https://testpypi.python.org/pypi
+echo 'Done'
+
